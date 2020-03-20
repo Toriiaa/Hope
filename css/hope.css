@@ -1,0 +1,339 @@
+*{
+    box-sizing: border-box;
+}
+.cover{
+    background: black;
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+section{
+    padding: 20px;
+}
+body, p{
+    margin: 0 auto;
+padding: 0;
+}
+.flex{
+display:flex;
+
+
+}
+.logo1{
+    color:yellow;
+    font-size: 30px;
+}
+.merit{
+    margin :10px auto;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.variance{
+    justify-content: space-between;
+}
+header ul li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    
+}
+a:hover {
+    background-color: yellow;
+}
+header ul{
+    display: flex;
+}
+/* .header-container{
+    justify-content: space-between; */
+}
+.paragraph2{
+    height:400px;
+    object-fit: cover;
+    flex-basis: 75%;
+}
+.section1-container{
+    justify-content: flex-start;
+}
+.item{
+    flex-basis: 100%;
+}
+.one, .two, .three{
+    margin-left: 2px solid black;
+}
+.paragraph{
+    flex-direction: column;
+    height: 100%;
+    
+}
+.flex .paragraph1{
+    flex-basis: 15%;
+    border:1px solid white;
+    border-left: none;
+    border-bottom: none;
+    border-top:none;
+   
+}
+.flex .paragraph2{
+    flex-basis: 100%;
+    /* border: 3px solid white; */
+    
+}
+.yellow{
+    background: yellow;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.yellow1{
+    background-color: yellow;
+    color: white;
+    padding: 5px;
+}
+.green1{
+    background-color: greenyellow;
+    color: white;
+    padding: 5px;
+}
+.blue1{
+    background-color: rgb(17, 183, 189);
+    color: white;
+    padding: 5px;
+}
+.paragraph2{
+    flex-basis: 95%;
+
+}
+.paragraph2 img{
+    height: 400px;
+    object-fit: cover;
+}
+.items{
+    border-left: 1px solid grey;
+    padding: 0 20px;
+}
+
+.items h1 { margin: 0;}
+.yellow h2{
+    margin-bottom: 0px;
+}
+.green{
+    background: greenyellow;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    padding: 10px;
+    
+}
+.green h2{
+    margin-bottom: 0%;
+}
+.blue{
+    background: rgb(17, 183, 189);
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    padding: 10px;
+}
+.blue h2{
+    margin-bottom: 0;
+}
+.items img{
+    height:300px;
+    
+    object-fit: cover;
+    border:3px solid white;
+
+    /* border:2px solid gray; */
+}
+img{
+    width:100%;
+}
+
+.section1{
+padding-left: 0;
+padding-right: 0;
+
+}
+.change{
+    color:white;
+    font-size: 20px;
+    padding: 12px;
+    background-color: black;
+    position: absolute;
+    bottom:120px;
+    right: 130px;
+    
+}
+.young{
+    color: rgb(233, 231, 231);
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: absolute;
+    bottom: 60px;
+    right: 130px;
+    
+}
+
+.section2-container{
+    justify-content: space-evenly;
+}
+.grey{
+    background-color: #dbd3d0;
+}
+.grey a {
+    background: black;
+    border:0px;
+    
+}
+.green2{
+    color:greenyellow;
+}
+.yellow2{
+    color:yellow;
+}
+.blue2{
+    color: rgb(17, 183, 189);
+}
+.grey p,h1{
+    color: black;
+}
+.items{
+    flex-basis: 30%;
+}
+.items a{
+    padding: 0;
+  border: 2px solid gray;
+    display: inline-block;
+    
+}
+
+.one {
+    border-left: none;
+}
+.section3-container{
+    justify-content: space-between;
+}
+.section3-item1{
+    flex-basis: 30%;
+}
+.section3-item2{
+    flex-basis: 60%;
+}
+.container{
+    padding: 5px 5px;
+}
+.bag a{
+    background: yellow;
+    color:white;
+    border:none;
+    padding: 8px;
+}
+.fade a{
+    background-color: greenyellow;
+    color:white;
+    border:none;
+    padding: 8px;
+}
+.clear a{
+    background-color:  rgb(17, 183, 189);
+    color:white;
+    border:none;
+    padding: 8px;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    padding: 10px;
+}
+footer .foot p{
+    text-align: center;
+}
+/* MEDIA GOES HERE */
+@media screen and (max-width:800px) {
+    .header-container{
+        flex-direction: column;
+    }
+    .paragraph2 img{
+       width:100%;
+        border:1px solid white;
+        
+
+    }
+
+    .section1-container{
+        flex-direction: column;
+    }
+    .section2-container{
+        flex-direction: column;
+    }
+    img{
+        image-resolution: 200px;
+    }
+   .items{
+       padding:20px;
+      
+       
+   }
+   .container .flex{
+    flex-direction: column;
+   }
+   .footer-container{
+       flex-direction: column;
+   }
+   footer ul{
+    flex-direction: column;
+}
+footer .logo{
+    display: block;
+}
+
+
+
+}
+@media screen and (max-width:500px){
+    .header-container{
+        flex-direction: column;
+
+    }
+    header ul{
+    
+        flex-direction: column;
+    }
+    .section1-container{
+        flex-direction: column;
+    }
+    .section2-container{
+        flex-direction: column;
+    }
+    img{
+        image-resolution: 200px;
+        width:100%;
+    }
+   .items{
+       padding:20px;
+   }
+   .young{
+       right:25%;
+   }
+   .change{
+       right:5%;
+   }
+   .container .items{
+    flex-direction: column;
+   }
+   .footer-container{
+       flex-direction: column;
+   }
+   footer ul{
+       flex-direction: column;
+   }
+}

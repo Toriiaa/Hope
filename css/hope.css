@@ -43,7 +43,7 @@ a{
     
 }
 a:hover {
-    background-color: yellow;
+    color: yellow;
 }
 header ul{
     display: flex;
@@ -58,6 +58,9 @@ header ul{
 }
 .section1-container{
     justify-content: flex-start;
+}
+.paragraph a:hover{
+    color: white;
 }
 .item{
     flex-basis: 100%;
